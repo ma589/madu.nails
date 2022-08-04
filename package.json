@@ -1,0 +1,21 @@
+{
+  "name": "madu.nails",
+  "version": "1.0.0",
+  "description": "APIREST design de unhas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pw3",
+    "nodejs",
+    "etec",
+    "barueri",
+    "3DS"
+  ],
+  "author": "Maria Eduarda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
