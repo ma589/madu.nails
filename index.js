@@ -2,7 +2,7 @@
 const express = require('express');
 
 //IMPORTAÇÃO DO CONTROLLER DE CATEGORIA DE LIVROS
-const categoriaController = require('./controller/CategoriaController');
+const servicosController = require('./controller/servicosController');
 
 /*Criação de uma Instancia executavel do express */
 const app = express();
@@ -10,9 +10,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-//ROTAS DE CATEGORIA DE LIVROS
+//ROTAS DE SERVICOS
 console.log('A REQUISIÇÃO PASSOU PELO INDEX');
-app.use('/', categoriaController);
+app.use('/', servicosController);
 
 app.listen(3000, ()=>{
     console.log('SERVIDOR RODANDO EM: http://localhost:3000');
